@@ -1,0 +1,41 @@
+name = "evolution-ai"
+compatibility_date = "2024-11-06"
+main = "./dist/worker.js"
+
+[env.production]
+name = "evolution-ai"
+routes = [
+  { pattern = "evolution-ai.pages.dev/*", zone_id = "your-zone-id" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "evolution"
+database_id = "d2fe5a9e-ded4-4597-8738-d4452d1cc845"
+
+[vars]
+ENVIRONMENT = "production"
+
+# KV Namespaces for caching and session storage
+[[kv_namespaces]]
+binding = "CACHE"
+id = "your-cache-kv-namespace-id"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "your-sessions-kv-namespace-id"
+
+# R2 Buckets for file storage
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "evolution-files"
+
+# Queue bindings for background tasks
+[[queues.producers]]
+queue = "background-tasks"
+binding = "QUEUE"
+
+[[queues.consumers]]
+queue = "background-tasks"
+max_batch_size = 10
+max_batch_timeout = 30

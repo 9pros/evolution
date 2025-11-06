@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/[root of the server]__33bd1d._.css",
+      "static/chunks/node_modules_caa803._.js",
+      "static/chunks/_1aa0ef._.js",
+      "static/chunks/node_modules_@tanstack_query-devtools_build_a494e7._.js",
+      "static/chunks/app_layout_tsx_935f02._.js",
+      "static/chunks/_ccbad8._.js",
+      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854ac._.js",
+      "static/chunks/node_modules_be5332._.js",
+      "static/chunks/node_modules_micromark_dev_lib_0428ac._.js",
+      "static/chunks/node_modules_micromark-core-commonmark_dev_lib_36a4b4._.js",
+      "static/chunks/node_modules_react-syntax-highlighter_dist_d47cd2._.js",
+      "static/chunks/node_modules_refractor_lang_18ace1._.js",
+      "static/chunks/node_modules_refractor_d203a8._.js",
+      "static/chunks/54749_eact-resizable-panels_dist_react-resizable-panels_browser_development_esm_6b1da0.js",
+      "static/chunks/node_modules_@radix-ui_3e344e._.js",
+      "static/chunks/node_modules_c59814._.js",
+      "static/chunks/app_page_tsx_df1d16._.js",
+      "static/chunks/node_modules_next_dist_compiled_react_a1d82d._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_87a050._.js",
+      "static/chunks/node_modules_next_dist_compiled_e13b54._.js",
+      "static/chunks/node_modules_next_dist_client_8bb71d._.js",
+      "static/chunks/node_modules_next_dist_38ecb8._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_23f2be._.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_d76987.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_6d50c8.js"
+    ]
+  }
+}
